@@ -1,16 +1,19 @@
 Statistical Evaluation Tool for Classifiers
 ===========================================
 
+Tool to perform sensitivity, specificity, ROC curve, and AUC computation on
+classifier results, and generate averaged plots and AUC values for cross-testing.
+
 Author: Rohit Rawat (rohit.rawat@mavs.uta.edu)  
 Created: 06/26/2012  
 Updated: 08/26/2015
 
 Image Processing and Neural Networks Lab, UT Arlington
+
 MLP Classifiers (recommended), RBF Classifiers, and NuClass (NuClass is now deprecated)
 can be obtained from: http://www.uta.edu/faculty/manry/
 
-
-Run the script `stats_tool.m` to start the GUI. (Do not open the.fig file!).
+**Run the script `stats_tool.m` to start the GUI**. (Do not open the.fig file!).
 The GUI is self explanatory. The command line version is also included.
 
 ![Screenshot](screenshot_stats_tool.png)
@@ -31,12 +34,13 @@ The averaged ROC curve, and average AUC values will also be displayed. The
 tool can also be run for just a single file if cross-testing is not performed.
 
 ### ROC plot options
-To display the ROC plot for each validation file, select
-"Each plot in new window". To only display the averaged plot, select the other
-option. The averaged plot will be displayed in both the cases. To save the
-displayed plots as JPEG files in the current directory, check the box
+* To display the ROC plot for each validation file, select "Each plot in new
+window". To only display the averaged plot, select the other option. The
+averaged plot will be displayed in both the cases.
+* To save the displayed plots as JPEG files in the current directory, check the box
 underneath. The JPEG files will have the same names as the processing
 results files, but with a JPEG extension. The averaged plot is saved as
-"averaged_ROC_plot.jpg". The positive class label should be set to 1 or 2,
-depending on what label has been used for the positive class. The negative class
-(or the control class) is automatically assigned the other label.
+"averaged_ROC_plot.jpg".
+* The positive class label should be set to 1 or 2, depending on what label has
+been used for the positive class. The negative class (or the control class) is
+automatically assigned the other label.
