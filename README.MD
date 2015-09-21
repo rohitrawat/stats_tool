@@ -44,3 +44,13 @@ results files, but with a JPEG extension. The averaged plot is saved as
 * The positive class label should be set to 1 or 2, depending on what label has
 been used for the positive class. The negative class (or the control class) is
 automatically assigned the other label.
+
+Examples
+--------
+For an application in producing cross-validation ROC curves, please see:
+A. Yennu, F. Tian, H. Liu, R. Rawat, M. T. Manry, and R. Gatchel,
+“A preliminary investigation of human frontal cortex under noxious thermal 
+stimulation over the temporomandibular joint using functional near infrared 
+spectroscopy,” Journal of Applied Biobehavioral Research, vol. 18, no. 3, pp. 
+134–155, 2013.
+
