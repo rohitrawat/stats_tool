@@ -17,6 +17,7 @@ can be obtained from: http://www.uta.edu/faculty/manry/
 The GUI is self explanatory. The command line version is also included.
 
 ![Screenshot](screenshot_stats_tool.png)
+![Average ROI with error bars](ROI_error_bars.png)
 
 Help
 ----
